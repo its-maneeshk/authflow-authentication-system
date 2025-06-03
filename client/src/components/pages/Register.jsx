@@ -158,7 +158,7 @@ const Register = () => {
                                     <div className='h-16 w-0.5 bg-gray-300 '></div>
                                     <div className="text-center">
                                         <Link
-                                            to='/'
+                                            to='/login'
                                             className="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
                                         >
                                             Already have an account? <br /> Login!

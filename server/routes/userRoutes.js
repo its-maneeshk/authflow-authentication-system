@@ -22,12 +22,11 @@ router.post('/login', async (req, res) => {
                 name: user.name,
                 email: user.email,
                 username: user.username,
-                role: user.role
             },
             process.env.JWT_SECRET || "maneeshauth",
             { expiresIn: '2d' }
         );
-        res.status(200).json({ message: 'Login Successful', token, user: { id: user._id, username: user.username, name: user.name, role: user.role } });
+        res.status(200).json({ message: 'Login Successful', token, user: { id: user._id, username: user.username, name: user.name, email: user.email, role: user.role } });
     }
     catch (error) {
         res.status(500).json({ message: "Server error" });

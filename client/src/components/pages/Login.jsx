@@ -5,28 +5,30 @@ import Swal from 'sweetalert2'
 
 
 const Login = () => {
-    const nevigate = useNavigate();
+    const navigate = useNavigate();
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
 
-    const handleSubmit = async(e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         setError('');
 
         try {
             const res = await axios.post('http://localhost:8080/user/login', { username, password });
             if (res.status === 200) {
-                const token = res.data.token;
+                const { token, user } = res.data;
                 localStorage.setItem('token', token);
+                localStorage.setItem('user', JSON.stringify(user));
+                
                 Swal.fire({
                     title: "Loggedin Successfully!",
                     text: `Welcome back, ${res.data.user.name}!`,
                     icon: 'success',
                     confirmButtonText: 'Go to Dashboard',
                 }).then(() => {
-                    nevigate('/profile');
-                }) 
+                    navigate('/profilecard'); 
+                })
             }
         }
         catch (error) {

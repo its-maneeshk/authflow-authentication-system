@@ -6,12 +6,14 @@ import Login from './components/pages/Login'
 import Register from './components/pages/Register'
 import NotFound from './components/pages/NotFound'
 import ForgetPassword from "./components/pages/ForgetPassword"
-import Profile from "./components/pages/Profile"
+import ProfileCard from "./components/pages/ProfileCard"
+import Game from "./components/pages/Game"
+import About from "./components/pages/About"
 
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/home",
+      path: "/",
       element: (
         <div>
           <Header/>
@@ -20,7 +22,7 @@ function App() {
       )
     },
     {
-      path: '/',
+      path: '/login',
       element: (
         <div>
           <Login/>
@@ -44,11 +46,29 @@ function App() {
       )
     },
     {
-      path: '/profile',
+      path: '/profileCard',
       element: (
         <div>
           <Header/>
-          <Profile/>
+          <ProfileCard/>
+        </div>
+      )
+    },
+    {
+      path: '/about',
+      element: (
+        <div>
+          <Header/>
+          <About/>
+        </div>
+      )
+    },
+    {
+      path: '/game',
+      element: (
+        <div>
+          <Header/>
+          <Game/>
         </div>
       )
     },

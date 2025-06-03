@@ -34,7 +34,7 @@ const ForgetPassword = () => {
                     icon: 'success',
                     confirmButtonText: 'Go to Login'
                 }).then(() => {
-                    navigate('/');
+                    navigate('/login');
                 })
             }
         }
