@@ -1,32 +1,37 @@
-# [PROJECT NAME] 🏨
+# AuthFlow 🔐
 
-**[PROJECT NAME]** short project description about the project.
+**AuthFlow** is a secure and responsive full-stack authentication system built with React, Node.js, Express, MongoDB, and TailwindCSS. It supports user registration, login, password hashing, JWT-based authentication, and protected routes.
 
 ## Features 🪶
 
 | **Module**                     | **Description**                                                                                          | **Module**                   | **Description**                                 |
 | ------------------------------ | -------------------------------------------------------------------------------------------------------- | ---------------------------- | ----------------------------------------------- |
-| **Authentication**             | Handles user login, signup, password reset, and logout operations.                                       | **Guest Management**         | Manages guest registration and information.     |
-| **Database Connectivity**      | Establishes and manages the connection between the application and the MySQL database.                   | **Admin Operations**         | Provides administrative functionalities.        |
-| **User Option Handling**       | Manages different options available to users (admin and customer).                                       | **Error Handling**           | Ensures stable application performance.         |
-| **Junction and Navigation**    | Controls navigation between different sections of the system.                                            | **Welcome and Greeting**     | Displays welcome messages and guides users.     |
-| **Main Menu**                  | Provides the main interface for user interaction.                                                        | **Logout**                   | Safely logs out users from the system.          |
+| **Authentication**             | Handles user signup, login, JWT generation, and logout functionality.                                     | **Protected Routes**         | Ensures only authenticated users access certain pages. |
+| **Database Connectivity**      | Connects backend server to MongoDB database using Mongoose.                                               | **Admin/User Roles**         | Supports differentiated access levels (if implemented). |
+| **User Input Handling**        | Validates and sanitizes input data on both frontend and backend.                                          | **Error Handling**           | Provides clear feedback and manages server/client errors. |
+| **JWT Token Management**       | Issues, verifies, and expires tokens for session security.                                                | **Form Validation**          | Frontend and backend checks to prevent bad input. |
+| **Tailwind Styling**           | Fully responsive design built with TailwindCSS for modern UI.                                             | **Logout**                   | Safely logs out users by clearing local/session storage. |
 
 ## User Interface
-The application features a command-line interface (CLI) that guides users through various options and operations, ensuring ease of use and accessibility for all users.
+The application features a clean and responsive web UI built in React.js and styled using TailwindCSS. It includes forms for user login, registration, and access to a protected dashboard.
 
 # Demo Images 
 
-Here are some screenshots demonstrating the key functionalities of **CalculatorApp**:
+Here are some screenshots demonstrating the key functionalities of **AuthFlow**:
 
-1. **[DEMO IMAGES]**:
-   ![IMAGE DESCRIPTION](Image Parmanent link)
-   
+1. **Login Page**  
+   ![Login Screenshot](https://your-image-link.com/login.png)
 
+2. **Register Page**  
+   ![Register Screenshot](https://your-image-link.com/register.png)
+
+3. **Protected Dashboard**  
+   ![Dashboard Screenshot](https://your-image-link.com/dashboard.png)
+
+> Replace these links with your actual image URLs (e.g., from GitHub, Imgur, or Cloudinary).
 
 ## Contributing 🛂
-Contributions are welcome! If you would like to contribute to CalculatorApp, please fork the repository, create a new branch, and submit a pull request. I encourage suggestions for new features, bug fixes, and general improvements.
-
+Contributions are welcome! If you would like to contribute to **AuthFlow**, please fork the repository, create a new branch, and submit a pull request. I encourage suggestions for new features, improvements, or bug fixes.
 
 ---
 
@@ -37,7 +42,7 @@ Contributions are welcome! If you would like to contribute to CalculatorApp, ple
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Code-Java-blue?style=flat-square&logo=java" alt="Java Badge">
+  <img src="https://img.shields.io/badge/Code-JavaScript-yellow?style=flat-square&logo=javascript" alt="JavaScript Badge">
   <img src="https://img.shields.io/badge/Tool-Git-orange?style=flat-square&logo=git" alt="Git Badge">
   <img src="https://img.shields.io/badge/Project-Open%20Source-brightgreen?style=flat-square" alt="Open Source Badge">
 </p>
@@ -45,5 +50,3 @@ Contributions are welcome! If you would like to contribute to CalculatorApp, ple
 <p align="center">
   🚀 Follow my work at <a href="https://github.com/its-maneeshk" target="_blank">GitHub</a> and let's build something amazing together!
 </p>
-
-
