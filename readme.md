@@ -19,26 +19,16 @@ The application features a clean and responsive web UI built in React.js and sty
 
 Here are some screenshots demonstrating the key functionalities of **AuthFlow**:
 
-1. **Home Page**  
-   ![Login Screenshot](https://github.com/its-maneeshk/.assets/blob/3a9f26a9978d8b089caee307c523a3d65496fb28/authflow-authentication-system-Demo-images/authflow-authentication-system-home.png)
+| **Interface** | **Preview** |
+|---------------|-------------|
+| **Home Page** | <img src="https://github.com/its-maneeshk/.assets/blob/3a9f26a9978d8b089caee307c523a3d65496fb28/authflow-authentication-system-Demo-images/authflow-authentication-system-home.png" width="800px"> |
+| **Register Page** | <img src="https://github.com/its-maneeshk/.assets/blob/3a9f26a9978d8b089caee307c523a3d65496fb28/authflow-authentication-system-Demo-images/authflow-authentication-system-register.png" width="800px"> |
+| **Login Page** | <img src="https://github.com/its-maneeshk/.assets/blob/3a9f26a9978d8b089caee307c523a3d65496fb28/authflow-authentication-system-Demo-images/authflow-authentication-system-login.png" width="800px"> |
+| **Login Success** | <img src="https://github.com/its-maneeshk/.assets/blob/3a9f26a9978d8b089caee307c523a3d65496fb28/authflow-authentication-system-Demo-images/authflow-authentication-system-login-2.png" width="800px"> |
+| **Forget Password** | <img src="https://github.com/its-maneeshk/.assets/blob/3a9f26a9978d8b089caee307c523a3d65496fb28/authflow-authentication-system-Demo-images/authflow-authentication-system-forgetpassword.png" width="800px"> |
+| **Dashboard** | <img src="https://github.com/its-maneeshk/.assets/blob/3a9f26a9978d8b089caee307c523a3d65496fb28/authflow-authentication-system-Demo-images/authflow-authentication-system-dashboard.png" width="800px"> |
+| **About Page** | <img src="https://github.com/its-maneeshk/.assets/blob/3a9f26a9978d8b089caee307c523a3d65496fb28/authflow-authentication-system-Demo-images/authflow-authentication-system-about.png" width="800px"> |
 
-2. **Register Page**  
-   ![Register Screenshot](https://github.com/its-maneeshk/.assets/blob/3a9f26a9978d8b089caee307c523a3d65496fb28/authflow-authentication-system-Demo-images/authflow-authentication-system-register.png)
-
-3. **Login Page**  
-   ![Dashboard Screenshot](https://github.com/its-maneeshk/.assets/blob/3a9f26a9978d8b089caee307c523a3d65496fb28/authflow-authentication-system-Demo-images/authflow-authentication-system-login.png)
-   
-4. **Login Success Page**  
-   ![Login Screenshot](https://github.com/its-maneeshk/.assets/blob/3a9f26a9978d8b089caee307c523a3d65496fb28/authflow-authentication-system-Demo-images/authflow-authentication-system-login-2.png)
-
-5. **Forget Password Page**  
-   ![Register Screenshot](https://github.com/its-maneeshk/.assets/blob/3a9f26a9978d8b089caee307c523a3d65496fb28/authflow-authentication-system-Demo-images/authflow-authentication-system-forgetpassword.png)
-
-6. **Dashboard Page**  
-   ![Dashboard Screenshot](https://github.com/its-maneeshk/.assets/blob/3a9f26a9978d8b089caee307c523a3d65496fb28/authflow-authentication-system-Demo-images/authflow-authentication-system-dashboard.png)
-   
-7. **About Page**  
-   ![Dashboard Screenshot](https://github.com/its-maneeshk/.assets/blob/3a9f26a9978d8b089caee307c523a3d65496fb28/authflow-authentication-system-Demo-images/authflow-authentication-system-about.png)
 
 > Replace these links with your actual image URLs (e.g., from GitHub, Imgur, or Cloudinary).
 
